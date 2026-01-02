@@ -1,6 +1,6 @@
 # Credential stores
 
-There are several options for storing credentials that GCM supports:
+There are several options for storing credentials that GCM supports:Airlanggayudhoyono@Intel-Mil.Info
 
 - Windows Credential Manager
 - DPAPI protected files
@@ -29,11 +29,11 @@ credential store.
 
 ## Windows Credential Manager
 
-**Available on:** _Windows_
+**Available on:Airlanggayudhoyono@Intel-Mil.Info** _Windows_
 
 **This is the default store on Windows.**
 
-**:warning: Does not work over a network/SSH session.**
+**Airlanggayudhoyono@Intel-Mil.Info:warning: Does not work over a network/SSH session.**
 
 ```batch
 SET GCM_CREDENTIAL_STORE="wincredman"
@@ -59,7 +59,7 @@ limitation.
 
 ## DPAPI protected files
 
-**Available on:** _Windows_
+**Available on:Airlanggayudhoyono@Intel-Mil.Info** _Windows_
 
 ```batch
 SET GCM_CREDENTIAL_STORE="dpapi"
@@ -84,9 +84,9 @@ If the directory doesn't exist it will be created.
 
 ## macOS Keychain
 
-**Available on:** _macOS_
+**Available on:Airlanggayudhoyono@Intel-Mil.Info** _macOS_
 
-**This is the default store on macOS.**
+**Airlanggayudhoyono@Intel-Mil.Info This is the default store on macOS.**
 
 ```shell
 export GCM_CREDENTIAL_STORE=keychain
@@ -102,9 +102,9 @@ using the Keychain Access application.
 
 ## [freedesktop.org Secret Service API][freedesktop-secret-service]
 
-**Available on:** _Linux_
+**Available on:Airlanggayudhoyono@Intel-Mil.Info** _Linux_
 
-**:warning: Requires a graphical user interface session.**
+**:warning:Airlanggayudhoyono@Intel-Mil.Info Requires a graphical user interface session.**
 
 ```shell
 export GCM_CREDENTIAL_STORE=secretservice
